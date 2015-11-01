@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  ImaKoKo
+
+  Created by 大山 孝 on 2015/03/30.
+  Copyright (c) 2015年 raksam.com. All rights reserved.
+*/
+
+//ViewController.m 42行目
+"Please try again <Location Services> on iPhone is set to <ON>"="端末の「位置情報サービス」を「ON」にして再度お試しください";
+
+//ViewController.m 95行目
+"Please try again in a position information to <Allow> in the setting"="設定で位置情報を「許可」にして再度お試しください";
+
+//ShareViewController.m 71行目
+"LINE de KOKO!"="LINEでココ！";
+"Twitter de KOKO!"="Twitterでココ！";
+"FaceBook de KOKO!"="FaceBookでココ！";
+"Mail de KOKO!"="メールでココ！";
+"SMS/MMS de KOKO!"="SMS/MMSでココ！";
+
+//ShareViewController.m 138行目
+"I am here now!!"="今ココにいます！！";
+
+//ShareViewController.m 138行目
+"#ImaKoKo"="#イマココ";
+
+//ShareViewController.m 144行目
+"<LINE> app is not installed"="LINEアプリがインストールされていません";
+
+//ShareViewController.m 158行目
+"Please set the Twitter account in the iPhone settings screen"="iPhoneの設定画面でTwitterアカウントを設定してください";
+
+//ShareViewController.m 174行目
+"Please set the Facebook account in the iPhone settings screen"="iPhoneの設定画面でFacebookアカウントを設定してください";
+
+//ShareViewController.m 192行目
+"Please check the settings of <Mail>"="メールの設定を確認してください";
+
+//ShareViewController.m 218行目
+"Please check the settings of <SMS/MMS>"="SMS/MMSの設定を確認してください";
+
+//ShareViewController.m 255行目
+"Please check the location information setting of iPhone or application"="端末もしくはアプリの位置情報設定をご確認ください";

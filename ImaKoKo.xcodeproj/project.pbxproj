@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE6E23FF1AE68ED000F699F5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD0AD1AC82211009E23F3 /* AdSupport.framework */; };
+		FED01BDC1AD985FD0021939C /* tab1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FED01BDA1AD985FD0021939C /* tab1@3x.png */; };
+		FED01BDD1AD985FD0021939C /* tab2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FED01BDB1AD985FD0021939C /* tab2@3x.png */; };
+		FEDBD0561AC0033D009E23F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDBD0551AC0033D009E23F3 /* main.m */; };
+		FEDBD0591AC0033D009E23F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDBD0581AC0033D009E23F3 /* AppDelegate.m */; };
+		FEDBD05C1AC0033D009E23F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDBD05B1AC0033D009E23F3 /* ViewController.m */; };
+		FEDBD05F1AC0033D009E23F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD05D1AC0033D009E23F3 /* Main.storyboard */; };
+		FEDBD0611AC0033D009E23F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0601AC0033D009E23F3 /* Images.xcassets */; };
+		FEDBD0641AC0033D009E23F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0621AC0033D009E23F3 /* LaunchScreen.xib */; };
+		FEDBD07E1AC0095C009E23F3 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDBD07D1AC0095C009E23F3 /* ShareViewController.m */; };
+		FEDBD0801AC028C9009E23F3 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD07F1AC028C9009E23F3 /* GoogleMaps.framework */; };
+		FEDBD0821AC029EB009E23F3 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0811AC029EB009E23F3 /* GoogleMaps.bundle */; };
+		FEDBD0841AC02A68009E23F3 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD0831AC02A68009E23F3 /* libc++.dylib */; };
+		FEDBD0861AC02A78009E23F3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD0851AC02A78009E23F3 /* AVFoundation.framework */; };
+		FEDBD0881AC02A87009E23F3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD0871AC02A87009E23F3 /* CoreData.framework */; };
+		FEDBD08A1AC02A9D009E23F3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD0891AC02A9D009E23F3 /* CoreLocation.framework */; };
+		FEDBD08C1AC02AA9009E23F3 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD08B1AC02AA9009E23F3 /* CoreText.framework */; };
+		FEDBD08E1AC02AB2009E23F3 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD08D1AC02AB2009E23F3 /* GLKit.framework */; };
+		FEDBD0901AC02AC5009E23F3 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD08F1AC02AC5009E23F3 /* ImageIO.framework */; };
+		FEDBD0921AC02AD3009E23F3 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD0911AC02AD3009E23F3 /* libicucore.dylib */; };
+		FEDBD0941AC02AE3009E23F3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD0931AC02AE3009E23F3 /* libz.dylib */; };
+		FEDBD0961AC02AF2009E23F3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD0951AC02AF2009E23F3 /* OpenGLES.framework */; };
+		FEDBD0981AC02AFD009E23F3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD0971AC02AFD009E23F3 /* QuartzCore.framework */; };
+		FEDBD09A1AC02B08009E23F3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD0991AC02B08009E23F3 /* SystemConfiguration.framework */; };
+		FEDBD09C1AC2942E009E23F3 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD09B1AC2942E009E23F3 /* Social.framework */; };
+		FEDBD09E1AC59FD2009E23F3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD09D1AC59FD2009E23F3 /* MessageUI.framework */; };
+		FEDBD0A01AC5AF1F009E23F3 /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD09F1AC5AF1F009E23F3 /* reload.png */; };
+		FEDBD0A31AC6D1F2009E23F3 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDBD0A21AC6D1F2009E23F3 /* MyTabBarController.m */; };
+		FEDBD0A51AC81CB3009E23F3 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD0A41AC81CB3009E23F3 /* iAd.framework */; };
+		FEDBD0AC1AC81FD0009E23F3 /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD0A61AC81FD0009E23F3 /* libNendAd.a */; };
+		FEDBD0B01AC82219009E23F3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBD0AF1AC82219009E23F3 /* Security.framework */; };
+		FEDBD0CB1AC97E4B009E23F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0CD1AC97E4B009E23F3 /* InfoPlist.strings */; };
+		FEDBD0D21AC98027009E23F3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0D41AC98027009E23F3 /* Localizable.strings */; };
+		FEDBD0D71ACEBECA009E23F3 /* imakokopin.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0D61ACEBECA009E23F3 /* imakokopin.png */; };
+		FEDBD0E91AD426B1009E23F3 /* icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0E01AD426B1009E23F3 /* icon-29.png */; };
+		FEDBD0EA1AD426B1009E23F3 /* icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0E11AD426B1009E23F3 /* icon-29@2x.png */; };
+		FEDBD0EB1AD426B1009E23F3 /* icon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0E21AD426B1009E23F3 /* icon-29@3x.png */; };
+		FEDBD0EC1AD426B1009E23F3 /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0E31AD426B1009E23F3 /* icon-40@2x.png */; };
+		FEDBD0ED1AD426B1009E23F3 /* icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0E41AD426B1009E23F3 /* icon-40@3x.png */; };
+		FEDBD0EE1AD426B1009E23F3 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0E51AD426B1009E23F3 /* icon-60@2x.png */; };
+		FEDBD0EF1AD426B1009E23F3 /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0E61AD426B1009E23F3 /* icon-60@3x.png */; };
+		FEDBD0F01AD426B1009E23F3 /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0E71AD426B1009E23F3 /* icon-76.png */; };
+		FEDBD0F11AD426B1009E23F3 /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0E81AD426B1009E23F3 /* icon-76@2x.png */; };
+		FEDBD0F61AD57643009E23F3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0F21AD57643009E23F3 /* Default-568h@2x.png */; };
+		FEDBD0F71AD57643009E23F3 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0F31AD57643009E23F3 /* Default-667h@2x.png */; };
+		FEDBD0F81AD57643009E23F3 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0F41AD57643009E23F3 /* Default-736h@3x.png */; };
+		FEDBD0F91AD57643009E23F3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD0F51AD57643009E23F3 /* Default@2x.png */; };
+		FEDC04631AD96B0C002D5F52 /* TrackingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDC04621AD96B0C002D5F52 /* TrackingManager.m */; };
+		FEDC04651AD96D5A002D5F52 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDC04641AD96D5A002D5F52 /* libsqlite3.dylib */; };
+		FEDC04711AD96DC4002D5F52 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDC04701AD96DC4002D5F52 /* libGoogleAnalyticsServices.a */; };
+		FEDC04731AD96FE1002D5F52 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDC04721AD96FE1002D5F52 /* libAdIdAccess.a */; };
+		FEDC04761AD9760F002D5F52 /* tab1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDC04741AD9760F002D5F52 /* tab1@2x.png */; };
+		FEDC04771AD9760F002D5F52 /* tab2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDC04751AD9760F002D5F52 /* tab2@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FED01BDA1AD985FD0021939C /* tab1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab1@3x.png"; sourceTree = "<group>"; };
+		FED01BDB1AD985FD0021939C /* tab2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab2@3x.png"; sourceTree = "<group>"; };
+		FEDBD0501AC0033D009E23F3 /* ImaKoKo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImaKoKo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDBD0541AC0033D009E23F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDBD0551AC0033D009E23F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEDBD0571AC0033D009E23F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEDBD0581AC0033D009E23F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEDBD05A1AC0033D009E23F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEDBD05B1AC0033D009E23F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEDBD05E1AC0033D009E23F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEDBD0601AC0033D009E23F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FEDBD0631AC0033D009E23F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FEDBD07C1AC0095C009E23F3 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		FEDBD07D1AC0095C009E23F3 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		FEDBD07F1AC028C9009E23F3 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		FEDBD0811AC029EB009E23F3 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		FEDBD0831AC02A68009E23F3 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		FEDBD0851AC02A78009E23F3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FEDBD0871AC02A87009E23F3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FEDBD0891AC02A9D009E23F3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FEDBD08B1AC02AA9009E23F3 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		FEDBD08D1AC02AB2009E23F3 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		FEDBD08F1AC02AC5009E23F3 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		FEDBD0911AC02AD3009E23F3 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		FEDBD0931AC02AE3009E23F3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FEDBD0951AC02AF2009E23F3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		FEDBD0971AC02AFD009E23F3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FEDBD0991AC02B08009E23F3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FEDBD09B1AC2942E009E23F3 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FEDBD09D1AC59FD2009E23F3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FEDBD09F1AC5AF1F009E23F3 /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
+		FEDBD0A11AC6D1F2009E23F3 /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		FEDBD0A21AC6D1F2009E23F3 /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		FEDBD0A41AC81CB3009E23F3 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		FEDBD0A61AC81FD0009E23F3 /* libNendAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNendAd.a; path = NendAd/libNendAd.a; sourceTree = "<group>"; };
+		FEDBD0A71AC81FD0009E23F3 /* NADIconArrayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NADIconArrayView.h; path = NendAd/NADIconArrayView.h; sourceTree = "<group>"; };
+		FEDBD0A81AC81FD0009E23F3 /* NADIconLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NADIconLoader.h; path = NendAd/NADIconLoader.h; sourceTree = "<group>"; };
+		FEDBD0A91AC81FD0009E23F3 /* NADIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NADIconView.h; path = NendAd/NADIconView.h; sourceTree = "<group>"; };
+		FEDBD0AA1AC81FD0009E23F3 /* NADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NADInterstitial.h; path = NendAd/NADInterstitial.h; sourceTree = "<group>"; };
+		FEDBD0AB1AC81FD0009E23F3 /* NADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NADView.h; path = NendAd/NADView.h; sourceTree = "<group>"; };
+		FEDBD0AD1AC82211009E23F3 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		FEDBD0AF1AC82219009E23F3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FEDBD0C71AC97E15009E23F3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		FEDBD0C81AC97E15009E23F3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FEDBD0CC1AC97E4B009E23F3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEDBD0CE1AC97E50009E23F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEDBD0D31AC98027009E23F3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FEDBD0D51AC98030009E23F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FEDBD0D61ACEBECA009E23F3 /* imakokopin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imakokopin.png; sourceTree = "<group>"; };
+		FEDBD0E01AD426B1009E23F3 /* icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-29.png"; sourceTree = "<group>"; };
+		FEDBD0E11AD426B1009E23F3 /* icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-29@2x.png"; sourceTree = "<group>"; };
+		FEDBD0E21AD426B1009E23F3 /* icon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-29@3x.png"; sourceTree = "<group>"; };
+		FEDBD0E31AD426B1009E23F3 /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
+		FEDBD0E41AD426B1009E23F3 /* icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@3x.png"; sourceTree = "<group>"; };
+		FEDBD0E51AD426B1009E23F3 /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
+		FEDBD0E61AD426B1009E23F3 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
+		FEDBD0E71AD426B1009E23F3 /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76.png"; sourceTree = "<group>"; };
+		FEDBD0E81AD426B1009E23F3 /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76@2x.png"; sourceTree = "<group>"; };
+		FEDBD0F21AD57643009E23F3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FEDBD0F31AD57643009E23F3 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		FEDBD0F41AD57643009E23F3 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		FEDBD0F51AD57643009E23F3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FEDC04611AD96B0C002D5F52 /* TrackingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingManager.h; sourceTree = "<group>"; };
+		FEDC04621AD96B0C002D5F52 /* TrackingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingManager.m; sourceTree = "<group>"; };
+		FEDC04641AD96D5A002D5F52 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FEDC04661AD96DC4002D5F52 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = ImaKoKo/GoogleAnalytics/GAI.h; sourceTree = "<group>"; };
+		FEDC04671AD96DC4002D5F52 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = ImaKoKo/GoogleAnalytics/GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		FEDC04681AD96DC4002D5F52 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = ImaKoKo/GoogleAnalytics/GAIEcommerceFields.h; sourceTree = "<group>"; };
+		FEDC04691AD96DC4002D5F52 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = ImaKoKo/GoogleAnalytics/GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		FEDC046A1AD96DC4002D5F52 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = ImaKoKo/GoogleAnalytics/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		FEDC046B1AD96DC4002D5F52 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = ImaKoKo/GoogleAnalytics/GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		FEDC046C1AD96DC4002D5F52 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = ImaKoKo/GoogleAnalytics/GAIFields.h; sourceTree = "<group>"; };
+		FEDC046D1AD96DC4002D5F52 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = ImaKoKo/GoogleAnalytics/GAILogger.h; sourceTree = "<group>"; };
+		FEDC046E1AD96DC4002D5F52 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = ImaKoKo/GoogleAnalytics/GAITrackedViewController.h; sourceTree = "<group>"; };
+		FEDC046F1AD96DC4002D5F52 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = ImaKoKo/GoogleAnalytics/GAITracker.h; sourceTree = "<group>"; };
+		FEDC04701AD96DC4002D5F52 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = ImaKoKo/GoogleAnalytics/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		FEDC04721AD96FE1002D5F52 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
+		FEDC04741AD9760F002D5F52 /* tab1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab1@2x.png"; sourceTree = "<group>"; };
+		FEDC04751AD9760F002D5F52 /* tab2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab2@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEDBD04D1AC0033D009E23F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6E23FF1AE68ED000F699F5 /* AdSupport.framework in Frameworks */,
+				FEDBD0B01AC82219009E23F3 /* Security.framework in Frameworks */,
+				FEDBD0A51AC81CB3009E23F3 /* iAd.framework in Frameworks */,
+				FEDBD09E1AC59FD2009E23F3 /* MessageUI.framework in Frameworks */,
+				FEDBD09C1AC2942E009E23F3 /* Social.framework in Frameworks */,
+				FEDBD09A1AC02B08009E23F3 /* SystemConfiguration.framework in Frameworks */,
+				FEDBD0981AC02AFD009E23F3 /* QuartzCore.framework in Frameworks */,
+				FEDBD0961AC02AF2009E23F3 /* OpenGLES.framework in Frameworks */,
+				FEDBD0901AC02AC5009E23F3 /* ImageIO.framework in Frameworks */,
+				FEDBD08E1AC02AB2009E23F3 /* GLKit.framework in Frameworks */,
+				FEDBD08C1AC02AA9009E23F3 /* CoreText.framework in Frameworks */,
+				FEDBD08A1AC02A9D009E23F3 /* CoreLocation.framework in Frameworks */,
+				FEDBD0881AC02A87009E23F3 /* CoreData.framework in Frameworks */,
+				FEDBD0861AC02A78009E23F3 /* AVFoundation.framework in Frameworks */,
+				FEDBD0801AC028C9009E23F3 /* GoogleMaps.framework in Frameworks */,
+				FEDBD0AC1AC81FD0009E23F3 /* libNendAd.a in Frameworks */,
+				FEDBD0941AC02AE3009E23F3 /* libz.dylib in Frameworks */,
+				FEDC04711AD96DC4002D5F52 /* libGoogleAnalyticsServices.a in Frameworks */,
+				FEDBD0921AC02AD3009E23F3 /* libicucore.dylib in Frameworks */,
+				FEDC04731AD96FE1002D5F52 /* libAdIdAccess.a in Frameworks */,
+				FEDBD0841AC02A68009E23F3 /* libc++.dylib in Frameworks */,
+				FEDC04651AD96D5A002D5F52 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEDBD0471AC0033C009E23F3 = {
+			isa = PBXGroup;
+			children = (
+				FEDC04541AD96976002D5F52 /* GoogleAnalytics */,
+				FEDBD0521AC0033D009E23F3 /* ImaKoKo */,
+				FEDBD0511AC0033D009E23F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEDBD0511AC0033D009E23F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEDBD0501AC0033D009E23F3 /* ImaKoKo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEDBD0521AC0033D009E23F3 /* ImaKoKo */ = {
+			isa = PBXGroup;
+			children = (
+				FEDBD0571AC0033D009E23F3 /* AppDelegate.h */,
+				FEDBD0581AC0033D009E23F3 /* AppDelegate.m */,
+				FEDBD0A11AC6D1F2009E23F3 /* MyTabBarController.h */,
+				FEDBD0A21AC6D1F2009E23F3 /* MyTabBarController.m */,
+				FEDBD05A1AC0033D009E23F3 /* ViewController.h */,
+				FEDBD05B1AC0033D009E23F3 /* ViewController.m */,
+				FEDBD07C1AC0095C009E23F3 /* ShareViewController.h */,
+				FEDBD07D1AC0095C009E23F3 /* ShareViewController.m */,
+				FEDC04611AD96B0C002D5F52 /* TrackingManager.h */,
+				FEDC04621AD96B0C002D5F52 /* TrackingManager.m */,
+				FEDBD0D41AC98027009E23F3 /* Localizable.strings */,
+				FEDBD05D1AC0033D009E23F3 /* Main.storyboard */,
+				FEDBD0601AC0033D009E23F3 /* Images.xcassets */,
+				FEDBD0621AC0033D009E23F3 /* LaunchScreen.xib */,
+				FEDBD0531AC0033D009E23F3 /* Supporting Files */,
+			);
+			path = ImaKoKo;
+			sourceTree = "<group>";
+		};
+		FEDBD0531AC0033D009E23F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FED01BDA1AD985FD0021939C /* tab1@3x.png */,
+				FED01BDB1AD985FD0021939C /* tab2@3x.png */,
+				FEDC04741AD9760F002D5F52 /* tab1@2x.png */,
+				FEDC04751AD9760F002D5F52 /* tab2@2x.png */,
+				FEDBD0F21AD57643009E23F3 /* Default-568h@2x.png */,
+				FEDBD0F31AD57643009E23F3 /* Default-667h@2x.png */,
+				FEDBD0F41AD57643009E23F3 /* Default-736h@3x.png */,
+				FEDBD0F51AD57643009E23F3 /* Default@2x.png */,
+				FEDBD0E01AD426B1009E23F3 /* icon-29.png */,
+				FEDBD0E11AD426B1009E23F3 /* icon-29@2x.png */,
+				FEDBD0E21AD426B1009E23F3 /* icon-29@3x.png */,
+				FEDBD0E31AD426B1009E23F3 /* icon-40@2x.png */,
+				FEDBD0E41AD426B1009E23F3 /* icon-40@3x.png */,
+				FEDBD0E51AD426B1009E23F3 /* icon-60@2x.png */,
+				FEDBD0E61AD426B1009E23F3 /* icon-60@3x.png */,
+				FEDBD0E71AD426B1009E23F3 /* icon-76.png */,
+				FEDBD0E81AD426B1009E23F3 /* icon-76@2x.png */,
+				FEDBD0D61ACEBECA009E23F3 /* imakokopin.png */,
+				FEDBD0A61AC81FD0009E23F3 /* libNendAd.a */,
+				FEDBD0A71AC81FD0009E23F3 /* NADIconArrayView.h */,
+				FEDBD0A81AC81FD0009E23F3 /* NADIconLoader.h */,
+				FEDBD0A91AC81FD0009E23F3 /* NADIconView.h */,
+				FEDBD0AA1AC81FD0009E23F3 /* NADInterstitial.h */,
+				FEDBD0AB1AC81FD0009E23F3 /* NADView.h */,
+				FEDBD09F1AC5AF1F009E23F3 /* reload.png */,
+				FEDC04641AD96D5A002D5F52 /* libsqlite3.dylib */,
+				FEDBD0AF1AC82219009E23F3 /* Security.framework */,
+				FEDBD0AD1AC82211009E23F3 /* AdSupport.framework */,
+				FEDBD0A41AC81CB3009E23F3 /* iAd.framework */,
+				FEDBD09D1AC59FD2009E23F3 /* MessageUI.framework */,
+				FEDBD09B1AC2942E009E23F3 /* Social.framework */,
+				FEDBD0991AC02B08009E23F3 /* SystemConfiguration.framework */,
+				FEDBD0971AC02AFD009E23F3 /* QuartzCore.framework */,
+				FEDBD0951AC02AF2009E23F3 /* OpenGLES.framework */,
+				FEDBD0931AC02AE3009E23F3 /* libz.dylib */,
+				FEDBD0911AC02AD3009E23F3 /* libicucore.dylib */,
+				FEDBD07F1AC028C9009E23F3 /* GoogleMaps.framework */,
+				FEDBD08F1AC02AC5009E23F3 /* ImageIO.framework */,
+				FEDBD08D1AC02AB2009E23F3 /* GLKit.framework */,
+				FEDBD08B1AC02AA9009E23F3 /* CoreText.framework */,
+				FEDBD0891AC02A9D009E23F3 /* CoreLocation.framework */,
+				FEDBD0871AC02A87009E23F3 /* CoreData.framework */,
+				FEDBD0851AC02A78009E23F3 /* AVFoundation.framework */,
+				FEDBD0831AC02A68009E23F3 /* libc++.dylib */,
+				FEDBD0811AC029EB009E23F3 /* GoogleMaps.bundle */,
+				FEDBD0541AC0033D009E23F3 /* Info.plist */,
+				FEDBD0CD1AC97E4B009E23F3 /* InfoPlist.strings */,
+				FEDBD0551AC0033D009E23F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEDC04541AD96976002D5F52 /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				FEDC04661AD96DC4002D5F52 /* GAI.h */,
+				FEDC04671AD96DC4002D5F52 /* GAIDictionaryBuilder.h */,
+				FEDC04681AD96DC4002D5F52 /* GAIEcommerceFields.h */,
+				FEDC04691AD96DC4002D5F52 /* GAIEcommerceProduct.h */,
+				FEDC046A1AD96DC4002D5F52 /* GAIEcommerceProductAction.h */,
+				FEDC046B1AD96DC4002D5F52 /* GAIEcommercePromotion.h */,
+				FEDC046C1AD96DC4002D5F52 /* GAIFields.h */,
+				FEDC046D1AD96DC4002D5F52 /* GAILogger.h */,
+				FEDC046E1AD96DC4002D5F52 /* GAITrackedViewController.h */,
+				FEDC046F1AD96DC4002D5F52 /* GAITracker.h */,
+				FEDC04721AD96FE1002D5F52 /* libAdIdAccess.a */,
+				FEDC04701AD96DC4002D5F52 /* libGoogleAnalyticsServices.a */,
+			);
+			name = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEDBD04F1AC0033D009E23F3 /* ImaKoKo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEDBD0731AC0033D009E23F3 /* Build configuration list for PBXNativeTarget "ImaKoKo" */;
+			buildPhases = (
+				FEDBD04C1AC0033D009E23F3 /* Sources */,
+				FEDBD04D1AC0033D009E23F3 /* Frameworks */,
+				FEDBD04E1AC0033D009E23F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImaKoKo;
+			productName = ImaKoKo;
+			productReference = FEDBD0501AC0033D009E23F3 /* ImaKoKo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEDBD0481AC0033D009E23F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = raksam.com;
+				TargetAttributes = {
+					FEDBD04F1AC0033D009E23F3 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = FEDBD04B1AC0033D009E23F3 /* Build configuration list for PBXProject "ImaKoKo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEDBD0471AC0033C009E23F3;
+			productRefGroup = FEDBD0511AC0033D009E23F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEDBD04F1AC0033D009E23F3 /* ImaKoKo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEDBD04E1AC0033D009E23F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDBD0EA1AD426B1009E23F3 /* icon-29@2x.png in Resources */,
+				FEDBD0F11AD426B1009E23F3 /* icon-76@2x.png in Resources */,
+				FEDC04761AD9760F002D5F52 /* tab1@2x.png in Resources */,
+				FEDBD05F1AC0033D009E23F3 /* Main.storyboard in Resources */,
+				FEDC04771AD9760F002D5F52 /* tab2@2x.png in Resources */,
+				FEDBD0F81AD57643009E23F3 /* Default-736h@3x.png in Resources */,
+				FEDBD0CB1AC97E4B009E23F3 /* InfoPlist.strings in Resources */,
+				FEDBD0F91AD57643009E23F3 /* Default@2x.png in Resources */,
+				FEDBD0641AC0033D009E23F3 /* LaunchScreen.xib in Resources */,
+				FED01BDC1AD985FD0021939C /* tab1@3x.png in Resources */,
+				FEDBD0EC1AD426B1009E23F3 /* icon-40@2x.png in Resources */,
+				FEDBD0D71ACEBECA009E23F3 /* imakokopin.png in Resources */,
+				FEDBD0EE1AD426B1009E23F3 /* icon-60@2x.png in Resources */,
+				FEDBD0EF1AD426B1009E23F3 /* icon-60@3x.png in Resources */,
+				FEDBD0D21AC98027009E23F3 /* Localizable.strings in Resources */,
+				FEDBD0EB1AD426B1009E23F3 /* icon-29@3x.png in Resources */,
+				FEDBD0ED1AD426B1009E23F3 /* icon-40@3x.png in Resources */,
+				FEDBD0F61AD57643009E23F3 /* Default-568h@2x.png in Resources */,
+				FEDBD0E91AD426B1009E23F3 /* icon-29.png in Resources */,
+				FEDBD0F71AD57643009E23F3 /* Default-667h@2x.png in Resources */,
+				FED01BDD1AD985FD0021939C /* tab2@3x.png in Resources */,
+				FEDBD0611AC0033D009E23F3 /* Images.xcassets in Resources */,
+				FEDBD0821AC029EB009E23F3 /* GoogleMaps.bundle in Resources */,
+				FEDBD0A01AC5AF1F009E23F3 /* reload.png in Resources */,
+				FEDBD0F01AD426B1009E23F3 /* icon-76.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEDBD04C1AC0033D009E23F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDBD05C1AC0033D009E23F3 /* ViewController.m in Sources */,
+				FEDBD0591AC0033D009E23F3 /* AppDelegate.m in Sources */,
+				FEDC04631AD96B0C002D5F52 /* TrackingManager.m in Sources */,
+				FEDBD07E1AC0095C009E23F3 /* ShareViewController.m in Sources */,
+				FEDBD0A31AC6D1F2009E23F3 /* MyTabBarController.m in Sources */,
+				FEDBD0561AC0033D009E23F3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEDBD05D1AC0033D009E23F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDBD05E1AC0033D009E23F3 /* Base */,
+				FEDBD0C71AC97E15009E23F3 /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEDBD0621AC0033D009E23F3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDBD0631AC0033D009E23F3 /* Base */,
+				FEDBD0C81AC97E15009E23F3 /* ja */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FEDBD0CD1AC97E4B009E23F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDBD0CC1AC97E4B009E23F3 /* ja */,
+				FEDBD0CE1AC97E50009E23F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FEDBD0D41AC98027009E23F3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDBD0D31AC98027009E23F3 /* ja */,
+				FEDBD0D51AC98030009E23F3 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEDBD0711AC0033D009E23F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FEDBD0721AC0033D009E23F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEDBD0741AC0033D009E23F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImaKoKo",
+				);
+				INFOPLIST_FILE = ImaKoKo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImaKoKo/NendAd",
+					"$(PROJECT_DIR)/ImaKoKo/GoogleAnalytics",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raksam.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEDBD0751AC0033D009E23F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImaKoKo",
+				);
+				INFOPLIST_FILE = ImaKoKo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImaKoKo/NendAd",
+					"$(PROJECT_DIR)/ImaKoKo/GoogleAnalytics",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raksam.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEDBD04B1AC0033D009E23F3 /* Build configuration list for PBXProject "ImaKoKo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDBD0711AC0033D009E23F3 /* Debug */,
+				FEDBD0721AC0033D009E23F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEDBD0731AC0033D009E23F3 /* Build configuration list for PBXNativeTarget "ImaKoKo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDBD0741AC0033D009E23F3 /* Debug */,
+				FEDBD0751AC0033D009E23F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEDBD0481AC0033D009E23F3 /* Project object */;
+}
